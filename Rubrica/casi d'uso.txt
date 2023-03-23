@@ -1,0 +1,53 @@
+Nome del caso d'uso InserisciContatto
+Portata Rubrica
+Livello Obiettivo utente
+Attore primario Utente
+Parti interessante e interessi L'utente vuole inserire dei nuovi contatti nella rubrica telefonica
+Pre-condizioni Nessuno
+Garanzia di successo Il sistema inserisce con successo il contatto nella rubrica
+Scenario principale di successo
+ 1.L'utente apre la rubrica telefonica
+ 2.Seleziona "InserisciContatto"
+ 3.Il sistema richiede i dati del nuovo contatto come il nome e il numero di telefono(fisso casa, cellulare, ufficio...) che può essere più di uno
+ 4.L'utente inserisce i dati
+ 5.Salva contatto
+ 6.Il sistema comunica all'utente che l'operazione è avvenuta con successo
+Estensioni
+ InserisciContattoProtteto
+ 1.L'utente apre la rubrica telefonica
+ 2a.Seleziona "InserisciContattoProtetto"
+ 3.Il sistema richiede dei dati del nuovo contatto come il nome e il numero di telefono(fisso casa, cellulare, ufficio...) che può essere più di uno
+ 4.L'utente inserisce i dati
+ 5a.Salva contatto
+ 6.Il sistema comunica all'utente che l'operazione è avvenuta con successo
+ 
+ Raggiunto il numero massimo di contatti nella lista
+ 6a.Il sistema fallisce l'operazione e comunica all'utente che ha raggiunto il numero massimo di contatto da inserire
+Requisiti speciali Nessuno
+Elenco delle variabili tecnologiche e dei dati Il numero di telefono è composta da numeri e il nome di contatto alfanumerico
+Frequenza di ripetizioni Ininterrota finché non raggiunge il numero massimo di numero di contatto 
+Varie Nessuno
+
+
+
+
+
+Nome del caso d'uso RimuoviContatto
+Portata Rubrica
+Livello Obiettivo utente
+Attore primario Utente
+Parti interessante e interessi L'utente vuole rimuovere dei contatti dalla rubrica 
+Pre-condizioni Il contatto da eliminare deve essere salvato nella rubrica
+Garanzia di successo Il sistema comunica all'utente che la rimozione è avvenuta con successo
+Scenario principale di successo 
+ 1.L'utente apre la rubrica
+ 2.Seleziona la lista di contatti
+ 3.Seleziona il contatto da eliminare
+ 4.Elimina il contatto
+ 5.Il sistema comunica all'utente che la rimozione è avvenuta con successo
+Estensioni
+ 5a.Il sistema fallisce l'eliminazione e comunica all'utente che il contatto è protetto
+Requisiti speciali Nessuno
+Elenco delle variabili tecnologiche e dei dati Nessuno 
+Frequenza di ripetizioni Quasi ininterrotta
+Varie Nessuno
