@@ -418,7 +418,7 @@
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_cv0qE88KEe2Ak5ikVw9zCw" type="OperationCompartment"/>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_cv0qFM8KEe2Ak5ikVw9zCw" visible="false" type="SignalCompartment"/>
         <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_cv0qFc8KEe2Ak5ikVw9zCw" visible="false" type="StructureCompartment"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cvxmwc8KEe2Ak5ikVw9zCw" x="3170" y="4755"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cvxmwc8KEe2Ak5ikVw9zCw" x="3487" y="4121"/>
       </children>
       <children xmi:type="umlnotation:UMLShape" xmi:id="_dDwSsc8KEe2Ak5ikVw9zCw" element="_dDwSsM8KEe2Ak5ikVw9zCw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
         <children xmi:type="notation:DecorationNode" xmi:id="_dDwSs88KEe2Ak5ikVw9zCw" type="ImageCompartment">
@@ -776,7 +776,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_mjTuoM8QEe2Ak5ikVw9zCw" name="contiene" memberEnd="_mjTuoc8QEe2Ak5ikVw9zCw _mjTupM8QEe2Ak5ikVw9zCw"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_ZHC2cM8TEe2Ak5ikVw9zCw" name="possiede" memberEnd="_ZHC2cc8TEe2Ak5ikVw9zCw _ZHF5wM8TEe2Ak5ikVw9zCw"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_cCAywM8TEe2Ak5ikVw9zCw" name="contiene " memberEnd="_cCD2EM8TEe2Ak5ikVw9zCw _cCD2E88TEe2Ak5ikVw9zCw"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_cCAywM8TEe2Ak5ikVw9zCw" name="contiene" memberEnd="_cCD2EM8TEe2Ak5ikVw9zCw _cCD2E88TEe2Ak5ikVw9zCw"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_z1dH4M8VEe2Ak5ikVw9zCw" name="Amministratore">
     <ownedAttribute xmi:id="_1jaegM8VEe2Ak5ikVw9zCw" name="username" visibility="private"/>
     <ownedAttribute xmi:id="_3LIDMM8VEe2Ak5ikVw9zCw" name="utente" visibility="private" type="_YkRPoM8KEe2Ak5ikVw9zCw" association="_3LE_4M8VEe2Ak5ikVw9zCw">
