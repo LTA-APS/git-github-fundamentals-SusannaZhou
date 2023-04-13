@@ -1,0 +1,7 @@
+Contratto Inserimento fallito
+Operazione: Inserimento fallito()
+Riferimenti caso d’uso: InserisciContatto
+Precondizioni: è in esecuzione l'aggiungimento in Rubrica r un nuovo Contatto c
+Postcondizioni:
+l’istanza c di Contatto non è stata associata alla Rubrica r 
+ogni associamento con l'istanza c di Contatto viene rimossso
